@@ -1,0 +1,126 @@
+Topics:
+ 
+module js -> import / export
+
+  simple export/import 
+  collective import using * as 
+  default import/export
+
+
+scripts in package.json:
+
+  maps the helpfull cmds with a script name
+
+  help in running the essential cmds for the npm project
+
+**We cannot use external modules directly in html js / browserjs**
+
+Multi Page App:
+  https://retail.onlinesbi.sbi/personal/
+  A multiple refresh everytime to download common html codes/assets during interaction.
+  which leads lots of request and data consumtption and not being smooth
+
+  multiple versions of the html codes for every reload
+
+Single Page Application:
+  SPA, loads only the specific contents which needs changes and makes requests/assets calls only for the specific region of the site
+
+  single html code loaded once, whose DOM gets modified on interaction using js
+
+React Setup:
+
+  what is react?
+    front-end js library for manipulating DOM and producing contents using jsx
+  
+  vite --> framework which support npm project creation for libraries like react, preact, vue.js
+
+  1. npm create vite@latest
+  2. enter project name
+  3. select framework react
+  4. select variant javascript
+  5. Follow the instructions on the screen
+    1. cd <project-name>
+    2. npm install
+    3. npm run dev
+  
+  devDependencies -> packages used only during development
+
+  but not when the application goes live to production
+
+React: Complete Documentation ---> https://react.dev/
+  Structure of React & Folder Structure
+  import/export
+
+    normal import/export using curly braces/ * as utils
+
+    default import/export
+
+  Virtual DOM:
+    Real DOM: Tree like structure 
+      html 
+        head
+          title
+          script
+          icon
+        body
+          div
+          h1
+          a
+          p
+
+    Virtual DOM: is In Memory Copy of the real DOM used while manipulating the DOM.
+
+    React  SPA:
+    Virtual DOM
+      The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM.
+
+    Advantage: reconciliation process
+
+      where the changes happens only in the virtual DOM which will be compared with old virtual DOM. And if any difference is found it will affected in the Real DOM. 
+
+      No changes, Only memory/Virtual DOM changes not the real DOM
+    
+  jsx --> javascript xml, which permitts to write html elements inside js file
+
+  Expressions/variables are put inside curly of jsx syntax
+
+  className instead of class ( class is a keyword in js )
+    class is a keyword for creating blueprints of user defined object
+    because of which we need to use className instead of class jsx syntax
+
+    htmlFor instead for in label tag
+  
+  webpack & babeljs conversion
+
+    bundler -> webpack
+
+    transpiler ( translator + compiler ) -> babel
+
+  Netlify Deployment:
+
+    Making react app available to Public
+
+  components:
+    Simple function returning JSX syntax combined to form a single component
+      Eg:
+        Card, Instagram Post, Menu Options
+     can be used like a tag/element in jsx syntax
+    
+    props:
+      attributes passed for a component is called as prop
+      which can be used inside the props / destructured at component level
+  
+  normal css
+
+
+Task:
+
+  Price Card Design - https://docs.google.com/document/d/11URBvZUsXT4Sr3YtCuv-5gcOHmkOmX976h-QKcXbWqs/edit
+
+  Complete with component structure, please try the normal react learnt
+
+  Try if You know component way, else wait till next session will teach  the component & props way
+
+Next Session:
+  module css
+  Component & Props
