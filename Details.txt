@@ -99,16 +99,6 @@ React: Complete Documentation ---> https://react.dev/
   Netlify Deployment:
 
     Making react app available to Public
-
-  components:
-    Simple function returning JSX syntax combined to form a single component
-      Eg:
-        Card, Instagram Post, Menu Options
-     can be used like a tag/element in jsx syntax
-    
-    props:
-      attributes passed for a component is called as prop
-      which can be used inside the props / destructured at component level
   
   normal css
 
@@ -124,3 +114,12 @@ Task:
 Next Session:
   module css
   Component & Props
+  components:
+    Simple function returning JSX syntax combined to form a single component
+      Eg:
+        Card, Instagram Post, Menu Options
+     can be used like a tag/element in jsx syntax
+    
+    props:
+      attributes passed for a component is called as prop
+      which can be used inside the props / destructured at component level
