@@ -82,7 +82,7 @@ React: Complete Documentation ---> https://react.dev/
     
   jsx --> javascript xml, which permitts to write html elements inside js file
 
-  Expressions/variables are put inside curly of jsx syntax
+  Expressions/variables are put inside curly braces of jsx syntax
 
   className instead of class ( class is a keyword in js )
     class is a keyword for creating blueprints of user defined object
